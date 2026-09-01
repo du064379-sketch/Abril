@@ -1,0 +1,42 @@
+body{
+    margin-top: 0;
+    background-color:rgba(128, 255, 0, 0.658);
+    background-image: url(../img/ab.webp);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size:cover;
+}
+nav{
+    background-color:aquamarine;
+    padding: 11px; ;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-self: center;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li a{
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 40px;
+    border-radius: 30px;
+    background-color: rgb(96, 147, 241);
+
+}
+nav ul li a:hover{
+    color:black;
+    background-color: aqua;
+}
+
+
+.titulo{
+    color:rgba(0, 0, 255, 0.733);
+    text-align: center;
+}
