@@ -8,6 +8,6 @@ console.log("cantidad de monitores:", productos["monitor"]);
 console.log("cantidad de teclados:", productos["teclado"]);
 console.log("cantidad de mouse:", productos["mouse"]);
 
-
+if(precios[productos)
 
 
