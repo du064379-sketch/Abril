@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Lista de estudiantes</title>
 </head>
 <body>
-    <h1 class="titulo">Creacion de tablas</h1>
+ <h1 class="titulo">Creacion de tablas</h1>
     <h2 class="titulo1">listado de estudiantes</h2>
     <table>
         <thead>
@@ -39,6 +38,37 @@
         </tr>
         </tbody>
     </table>
+    <h3 style="text-align: center; color: green;">
+        Formulario
+    </h3>
+
+    Nombre:
+    <input type="text" id="nombre" placeholder="Ingresar su nombre">
+    <br><br>
+
+    Apellido:
+    <input type="text" id="apellido" placeholder="Ingresar su apellido">
+    <br><br>
+
+    Fecha de nacimiento:
+    <input type="date" id="fecha">
+    <br><br>
+
+    Género:
+    <select id="genero">
+        <option value="">Seleccione su género</option>
+        <option value="Masculino">Masculino</option>
+        <option value="Femenino">Femenino</option>
+    </select>
+    <br><br>
+
+    <button onclick="agregarTareas()">Adicionar</button>
+    <button onclick="eliminarTareas()">Limpiar</button>
+
+    <br><br>
+
+    <p id="respuesta"></p>
+
     <script src="./js/ejemplo1.js"></script>
 </body>
 </html>
